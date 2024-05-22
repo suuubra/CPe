@@ -22,6 +22,7 @@ namespace CottonPlantation
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //game
             CottonPlantation Form1 = new CottonPlantation();
             Form1.Show();
             this.Hide();
