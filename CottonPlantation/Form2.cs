@@ -15,14 +15,21 @@ namespace CottonPlantation
         public Form2()
         {
             InitializeComponent();
+
+            FormBorderStyle = FormBorderStyle.None;
+            WindowState = FormWindowState.Maximized;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //xom
             CottonPlantation Form1 = new CottonPlantation();
             Form1.Show();
             this.Hide();
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

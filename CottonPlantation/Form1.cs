@@ -21,6 +21,7 @@ namespace CottonPlantation
             Load_Game_Selection();
         }
 
+
         private void button1_Click(object sender, EventArgs e)
         {
             Form2 form2 = new Form2();
@@ -29,9 +30,18 @@ namespace CottonPlantation
         }
         private void Load_Game_Selection()
         {
+
             this.BackgroundImageLayout = ImageLayout.Stretch;
             this.BackgroundImage = Image.FromFile("Img/loading.jpg");
+            FormBorderStyle = FormBorderStyle.None;
+            WindowState = FormWindowState.Maximized;
 
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

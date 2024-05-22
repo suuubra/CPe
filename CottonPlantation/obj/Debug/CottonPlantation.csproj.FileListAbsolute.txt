@@ -10,3 +10,15 @@ K:\2024_SR_12IT1\Visual Studio\CottonPlantation\obj\Debug\CottonPlantation.cspro
 K:\2024_SR_12IT1\Visual Studio\CottonPlantation\obj\Debug\CottonPlantation.exe
 K:\2024_SR_12IT1\Visual Studio\CottonPlantation\obj\Debug\CottonPlantation.pdb
 K:\2024_SR_12IT1\Visual Studio\CottonPlantation\obj\Debug\CottonPlantation.Form2.resources
+\\hbhs.local\users\Home\Students\1smohank\Documents\2024_SR_12IT1\Visual Studio\CPe\CottonPlantation\bin\Debug\CottonPlantation.exe.config
+\\hbhs.local\users\Home\Students\1smohank\Documents\2024_SR_12IT1\Visual Studio\CPe\CottonPlantation\bin\Debug\CottonPlantation.exe
+\\hbhs.local\users\Home\Students\1smohank\Documents\2024_SR_12IT1\Visual Studio\CPe\CottonPlantation\bin\Debug\CottonPlantation.pdb
+\\hbhs.local\users\Home\Students\1smohank\Documents\2024_SR_12IT1\Visual Studio\CPe\CottonPlantation\obj\Debug\CottonPlantation.csproj.AssemblyReference.cache
+\\hbhs.local\users\Home\Students\1smohank\Documents\2024_SR_12IT1\Visual Studio\CPe\CottonPlantation\obj\Debug\CottonPlantation.csproj.SuggestedBindingRedirects.cache
+\\hbhs.local\users\Home\Students\1smohank\Documents\2024_SR_12IT1\Visual Studio\CPe\CottonPlantation\obj\Debug\CottonPlantation.CottonPlantation.resources
+\\hbhs.local\users\Home\Students\1smohank\Documents\2024_SR_12IT1\Visual Studio\CPe\CottonPlantation\obj\Debug\CottonPlantation.Form2.resources
+\\hbhs.local\users\Home\Students\1smohank\Documents\2024_SR_12IT1\Visual Studio\CPe\CottonPlantation\obj\Debug\CottonPlantation.Properties.Resources.resources
+\\hbhs.local\users\Home\Students\1smohank\Documents\2024_SR_12IT1\Visual Studio\CPe\CottonPlantation\obj\Debug\CottonPlantation.csproj.GenerateResource.cache
+\\hbhs.local\users\Home\Students\1smohank\Documents\2024_SR_12IT1\Visual Studio\CPe\CottonPlantation\obj\Debug\CottonPlantation.csproj.CoreCompileInputs.cache
+\\hbhs.local\users\Home\Students\1smohank\Documents\2024_SR_12IT1\Visual Studio\CPe\CottonPlantation\obj\Debug\CottonPlantation.exe
+\\hbhs.local\users\Home\Students\1smohank\Documents\2024_SR_12IT1\Visual Studio\CPe\CottonPlantation\obj\Debug\CottonPlantation.pdb
