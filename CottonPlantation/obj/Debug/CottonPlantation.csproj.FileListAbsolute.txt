@@ -1,0 +1,12 @@
+K:\2024_SR_12IT1\Visual Studio\CottonPlantation\bin\Debug\CottonPlantation.exe.config
+K:\2024_SR_12IT1\Visual Studio\CottonPlantation\bin\Debug\CottonPlantation.exe
+K:\2024_SR_12IT1\Visual Studio\CottonPlantation\bin\Debug\CottonPlantation.pdb
+K:\2024_SR_12IT1\Visual Studio\CottonPlantation\obj\Debug\CottonPlantation.csproj.AssemblyReference.cache
+K:\2024_SR_12IT1\Visual Studio\CottonPlantation\obj\Debug\CottonPlantation.csproj.SuggestedBindingRedirects.cache
+K:\2024_SR_12IT1\Visual Studio\CottonPlantation\obj\Debug\CottonPlantation.CottonPlantation.resources
+K:\2024_SR_12IT1\Visual Studio\CottonPlantation\obj\Debug\CottonPlantation.Properties.Resources.resources
+K:\2024_SR_12IT1\Visual Studio\CottonPlantation\obj\Debug\CottonPlantation.csproj.GenerateResource.cache
+K:\2024_SR_12IT1\Visual Studio\CottonPlantation\obj\Debug\CottonPlantation.csproj.CoreCompileInputs.cache
+K:\2024_SR_12IT1\Visual Studio\CottonPlantation\obj\Debug\CottonPlantation.exe
+K:\2024_SR_12IT1\Visual Studio\CottonPlantation\obj\Debug\CottonPlantation.pdb
+K:\2024_SR_12IT1\Visual Studio\CottonPlantation\obj\Debug\CottonPlantation.Form2.resources
