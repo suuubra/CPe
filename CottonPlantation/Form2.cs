@@ -213,8 +213,10 @@ namespace CottonPlantation
 
                 if (collision)
                 {
+                    lblCollected.Text = "Collected the: " + item.name;
                     item.item_image = null;
                     items_list.Remove(item);
+
                 }
 
 

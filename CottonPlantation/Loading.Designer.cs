@@ -37,9 +37,9 @@
             this.buttonPlay.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonPlay.AutoSize = true;
             this.buttonPlay.BackColor = System.Drawing.Color.Transparent;
-            this.buttonPlay.Location = new System.Drawing.Point(607, 393);
+            this.buttonPlay.Location = new System.Drawing.Point(523, 367);
             this.buttonPlay.Name = "buttonPlay";
-            this.buttonPlay.Size = new System.Drawing.Size(181, 45);
+            this.buttonPlay.Size = new System.Drawing.Size(265, 71);
             this.buttonPlay.TabIndex = 0;
             this.buttonPlay.Text = "&Play";
             this.buttonPlay.UseVisualStyleBackColor = false;
@@ -49,9 +49,9 @@
             // 
             this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClose.AutoSize = true;
-            this.btnClose.Location = new System.Drawing.Point(713, 12);
+            this.btnClose.Location = new System.Drawing.Point(579, 12);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(75, 23);
+            this.btnClose.Size = new System.Drawing.Size(209, 63);
             this.btnClose.TabIndex = 1;
             this.btnClose.Text = "&Exit";
             this.btnClose.UseVisualStyleBackColor = true;
