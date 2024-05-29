@@ -31,7 +31,7 @@ namespace CottonPlantation
         private void Load_Game_Selection()
         {
 
-            this.BackgroundImageLayout = ImageLayout.Stretch;
+            this.BackgroundImageLayout = ImageLayout.Stretch; 
             this.BackgroundImage = Image.FromFile("Img/loading.jpg");
             FormBorderStyle = FormBorderStyle.None;
             WindowState = FormWindowState.Maximized;
