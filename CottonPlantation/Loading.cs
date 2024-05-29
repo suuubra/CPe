@@ -32,7 +32,7 @@ namespace CottonPlantation
         {
 
             this.BackgroundImageLayout = ImageLayout.Stretch; 
-            this.BackgroundImage = Image.FromFile("Img/loading.jpg");
+            this.BackgroundImage = Image.FromFile("img/loading.jpg");
             FormBorderStyle = FormBorderStyle.None;
             WindowState = FormWindowState.Maximized;
 
