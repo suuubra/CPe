@@ -41,11 +41,11 @@
             // 
             // lblCollected
             // 
-            this.lblCollected.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblCollected.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblCollected.AutoSize = true;
             this.lblCollected.BackColor = System.Drawing.Color.Transparent;
             this.lblCollected.ForeColor = System.Drawing.Color.DimGray;
-            this.lblCollected.Location = new System.Drawing.Point(713, 9);
+            this.lblCollected.Location = new System.Drawing.Point(533, 46);
             this.lblCollected.Name = "lblCollected";
             this.lblCollected.Size = new System.Drawing.Size(35, 13);
             this.lblCollected.TabIndex = 0;

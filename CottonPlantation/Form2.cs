@@ -31,8 +31,8 @@ namespace CottonPlantation
         int spawnTimeLimit = 50;
         int timeCounter = 0;
         Random rand = new Random();
-        string[] itemNames = { "red sword", "medium armour", "green shoes", "gold lamp", "red potion", "fast sword", "instruction manual", "giant sword", "warm jacket", "wizards hat", "red bow and arrow", "red spear", "green potion", "heavy armour", "cursed axe", "gold ring", "purple ring" };
-
+        string[] itemNames = { "cotton" };
+        List<int> counter = new List<int>();
 
         public Form2()
         {
@@ -152,7 +152,7 @@ namespace CottonPlantation
 
         private void SetUp()
         {
-            this.BackgroundImage = Image.FromFile("bg.jpg");
+            this.BackgroundImage = Image.FromFile("bg.png");
             this.BackgroundImageLayout = ImageLayout.Stretch;
             this.DoubleBuffered = true;
             
@@ -213,6 +213,7 @@ namespace CottonPlantation
 
                 if (collision)
                 {
+
                     lblCollected.Text = "Collected the: " + item.name;
                     item.item_image = null;
                     items_list.Remove(item);
