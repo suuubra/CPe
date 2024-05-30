@@ -16,10 +16,18 @@ namespace CottonPlantation
     {
 
         Image player;
+        Image massa;
         List<string> playerMovements = new List<string>();
+        List<string> massaMovements = new List<string>();
         int steps = 0;
         int slowDownFrameRate = 0;
         bool goLeft, goRight, goUp, goDown;
+        int massaX;
+        int massaY;
+        int massaHeight = 100;
+        int massaWidth = 100;
+        int massaSpeed = 8;
+
         int playerX;
         int playerY;
         int playerHeight = 100;
@@ -101,6 +109,8 @@ namespace CottonPlantation
             }
 
             Canvas.DrawImage(player, playerX, playerY, playerWidth, playerHeight);
+            Canvas.DrawImage(massa, 50, 50, massaWidth, massaHeight);
+            Canvas.DrawImage(massa, massaX, massaY, massaWidth, massaHeight);
         }
 
         private void TimerEvent(object sender, EventArgs e)
@@ -117,6 +127,32 @@ namespace CottonPlantation
                 MakeItems();
             }
 
+
+
+            if (goLeft && massaX > 0)
+            {
+                massaX -= playerSpeed;
+                AnimateMassa(4, 7);
+            }
+            else if (goRight && massaX + massaWidth < this.ClientSize.Width)
+            {
+                massaX += massaSpeed;
+                AnimateMassa(8, 11);
+            }
+            else if (goUp && playerY > 0)
+            {
+                massaY -= massaSpeed;
+                AnimateMassa(12, 15);
+            }
+            else if (goDown && massaY + massaHeight < this.ClientSize.Height)
+            {
+                massaY += massaSpeed;
+               AnimateMassa(0, 3);
+            }
+            else
+            {
+                AnimateMassa(0, 0);
+            }
 
 
             if (goLeft && playerX > 0)
@@ -158,7 +194,9 @@ namespace CottonPlantation
             
             // load the player files to the list
             playerMovements = Directory.GetFiles("player", "*.png").ToList();
+            massaMovements = Directory.GetFiles("massa", "*.png").ToList();
             player = Image.FromFile(playerMovements[0]);
+            massa = Image.FromFile(massaMovements[0]);
 
             item_locations = Directory.GetFiles("items", "*.png").ToList();
 
@@ -180,6 +218,25 @@ namespace CottonPlantation
             }
 
             player = Image.FromFile(playerMovements[steps]);
+
+        }
+
+        private void AnimateMassa(int start, int end)
+        {
+
+            slowDownFrameRate += 1;
+
+            if (slowDownFrameRate == 4)
+            {
+                steps++;
+                slowDownFrameRate = 0;
+            }
+            if (steps > end || steps < start)
+            {
+                steps = start;
+            }
+
+            player = Image.FromFile(massaMovements[steps]);
 
         }
 
